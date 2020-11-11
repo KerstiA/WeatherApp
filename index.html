@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ed2a0d7f0e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Sansita+Swashed:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="current-time">
+        <div class="col-4">
+        <h4>10/10/2020 16:00</h4>
+        </div>
+      </div>
+      <div class="current_location">
+        <div class="col-4">
+        <h1><i class="fas fa-map-marker-alt"></i> Raasiku</h1> 
+        </div>
+      </div>
+      <div class="current-weather">
+        <div class="col-4">
+        <h3>14°C</h3>
+        </div>
+        <br>
+       </div>
+       <div class="next-days">
+         <p class="secondary">
+           Rain total 21 mm
+           <br>
+           Mild temperatures max 14°C, min 2°C
+         </p>
+       </div>
+      <hr class="parallel">
+      <div class="content-inner">
+        <div class="list_days">
+          <div class="row_first">
+            <div class="col-2">
+              <p>
+              <strong>Mon</strong>
+              <br>
+              20°C / 10° <i class="fas fa-temperature-low"></i>
+              </p>
+            </div>
+          </div>
+          <div class="row_second">
+            <div class="col-2">
+              <p>
+                <strong>Tue</strong>
+                <br>
+                    20°C / 10° <i class="fas fa-temperature-low"></i>
+                    </p>
+            </div>
+          </div>
+          <div class="row_third">
+            <div class="col-2">
+              <p>
+                <strong>Wed</strong>
+                <br>
+                  20°C / 10° <i class="fas fa-temperature-low"></i>
+                  </p>
+            </div>
+          </div>
+          <div class="row_fourth">
+            <div class="col-2">
+              <p>
+                <strong>Thu</strong>
+                 <br>
+                    20°C / 10° <i class="fas fa-temperature-low"></i>
+                    </p>
+            </div>
+          </div>
+          <div class="row_fifth">
+            <div class="col-2">
+              <p>
+                <strong>Fri</strong>
+                <br>
+                    20°C / 10° <i class="fas fa-temperature-low"></i>
+                    </p>
+            </div>
+          </div>
+       </div>
+      </div>
+       <br>
+       <br>
+     <hr class="horisontal">
+     <div class="search-form">
+       <img src="images/world_map_.svg" id="world" alt="world" width="150px">
+       <form id="search-city">
+         <input type="text" id="text-input" placeholder="Search Location" />
+         <input type="submit" id="search" value="Search">
+         <i class="fas fa-map-marker-alt"></i>
+         <button class="location">My Location</button>
+       </form>
+     </div>
+     <div class="quote">
+       <p>
+        "When the weather is hot, 
+        <br> 
+        keep a cool mind.
+        <br> 
+        When the weather is cold,
+        <br>
+        keep a warm heart."
+        </p>
+   </div>
+   <script src="src/index.js"></script>
+  </body>
+</html>

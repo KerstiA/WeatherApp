@@ -109,6 +109,11 @@ p {
   font-weight: bolder;
   font-size: 18px;
 }
+p.name {
+  text-align: left;
+  font-size: 10px;
+  color: (189, 179, 179);
+}
 .fa-map-marker-alt {
   font-size: 28px;
 }
